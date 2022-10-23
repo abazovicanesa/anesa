@@ -1,0 +1,288 @@
+<html>
+    <!DOCTYPE html>
+    <head>
+        <title>
+             Vjezba
+             </title>
+             <link rel="stylesheet" type="text/css" href="predkol.css">
+
+           <!-----  <link rel="stylesheet"  OVO JE HTML DIO ZA FONT SLOVA
+          href="https://fonts.googleapis.com/css?family=Tangerine">------->
+
+
+            </head>
+            <body>
+                <h1> Ovo je glavni naslov na stranici</h1>
+                <h1 style="color:red">Naslovv</h1> <!----OVO JE ZA DIO U CSS I OBOJATI NASLOV-->
+                
+                <h2> Drugi podnaslov</h2>
+                <p>ovo je paragraph bijeli</p>
+                <p>drugi paragraph crni</p>
+
+
+                <p class=“text”>neki text</p> <!---DIO ZA TEKST HTML -->
+
+                <div class=“sidebar”>
+                    <h2>prvi naslov</h2>
+                    <h2>drugi naslov</h2>
+                    </div>
+
+                    <div class=“sidebar”> <!------za tekst u sredinu-->
+                        <p>neki paragraf</p>
+                        <p>neki drugi paragraf</p>
+                        <div class=“tagline”>
+                            <p>neki paragraf</p>
+                        </div>
+                        </div>
+                    
+            
+            </body>
+               <body>
+
+               <ul type="circle"> <!----kod type dodajemo circle, diss, square ako zelimo-->
+                <li>first item</li>
+               <li>second item</li>
+                <li>third item</li>
+          </ul>
+          <ol> <!----tag ol sluzi za numerisane liste-->
+            <li>second item </li>
+            <li>second item </li>
+            <li>second item </li>
+       </ol>
+      
+       <dl>            <!--neka stavka i njen opis-->
+        <dt> stavka 1 </dt>
+        <dd> opis stavke 1 </dd>
+        <dt> stavka 2 </dt>
+        <dd> opis sttavke 2 </dd>
+        . . . . .
+        </dl>
+
+        <font face="Comic Sans MS"> Ovdje se postavlja tekst.</font> <!---kada zelimo da odredimo font nekog teksta-->
+        <font face="Comic Sans MS" size="5">Ovdje se postavlja tekst.</font> <!---odredimo font teksta i velicinu slova-->
+        <font color="#ff0000"> Ovdje se postavlja tekst.</font> <!---tekst sa odredjenom bojom-->
+       <!----- <body bgcolor="#00FF00" text="#008000">  odrediti boju pozadine i teksta----->
+        <body background="senka.jpg" bgcolor="#000000"> <!-----odrediti pozadinu slikom--></br></br>
+            <img src="pahuljica.jpg" width="200" alt="" title="pahuljica"> <!---width je sirina and height je visina slike-->
+          <!----- <img src="pahuljica.jpg" hspace="50" vspace="50">--da se odredi razmak--->
+          <a href="https://www.udg.edu.me/">UDG sajt</a> 
+          <a href="mailto:anesa.abazovic@udg.edu.me?"subject=Test poruka&body="Napisite vas komentar">kontakt email</a>
+        </body>
+        <TABLE>
+            <!-- pocetak definicije tabele -->
+            <CAPTION> sadrzaj naslova tabele </CAPTION>
+            <!-- definicija naslova-->
+            <TR>
+            <!-- start definicije headera -->
+            <TH> sadržaj prve ćelija headera </TH>
+            <TH> sadržaj poslednje ćelije headera </TH>
+            </TR>
+            <!-- kraj definicije headera -->
+            <TR>
+            <!-- start prvog reda -->
+            <TD> sadržaj prve ćelije prvog reda </TD>
+            <TD> sadržaj poslednje ćelije prvog reda </TD>
+            </TR>
+            <!-- kraj prvog reda -->
+            <TR>
+            <!-- start poslednjeg reda -->
+            <TD> sadržaj prve ćelije poslednjeg reda </TD>
+            <TD> sadržaj poslednje ćelije poslednjeg reda </TD>
+            </TR>
+            <!-- kraj poslednjeg reda -->
+            </TABLE>
+            <!-- kraj definicije tabele-->
+          <!------  <form>
+
+            <input type=“reset” name=“reset” value=“reset”>
+            <input type="checkbox">
+            <input type="radio">
+            <textarea name=ime rows=n cols=m> ..neki tekst..</textarea></br></br>
+
+        
+                <input type="email">
+                <input type="submit" value="Go">
+             </form>
+             <form>
+                Birthday:
+  <input type="date" name="bday">
+  Birthday (month and year):
+  <input type="month" name="bdaymonth">
+
+             </form>------>
+       <!--------- <body>
+            <audio controls>
+
+                <source src="nature.mp3" type="audio/mp3">   
+        
+             </audio>   OVO JE ZA AUDIO I VIDEO
+
+             <video controls> 
+                <source src="videoplayback.mp4" type="video/mp4">
+                <source src="videoplayback.webm" type="video/webm">
+                <source src="videoplayback.ogv" type="video/ogg">
+         
+        </video>
+        </body>------->
+
+        <input list="browsers">  <!-----da odredimo u opcije sta zelimo-->
+
+<datalist id="browsers"> 
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+
+<figure>
+    <img src="ny.jpeg"alt="Macaque in the trees" width="200"> 
+    <figcaption>A cheeky macaque, Lower Kintaganban River, Borneo. Original by 
+    <a href="http://www.flickr.com/photos/rclark/">Richard Clark</a>
+    </figcaption>
+  </figure>
+
+  <section>
+    <h1>WWF</h1>
+    <p>The World Wide Fund for Nature (WWF) is....</p>
+  </section>
+  
+  <article>
+    <h1>What Does WWF Do?</h1>
+    <p>WWF's mission is to stop the degradation of our planet's natural environment,
+    and build a future in which humans live in harmony with nature.</p>
+  </article>
+ <!------FOOTER
+  <footer>         
+    <p>Posted by: Hege Refsnes</p>
+    <p>Contact information: <a href="mailto:someone@example.com">
+    someone@example.com</a>.</p>
+  </footer>
+  
+  <nav>
+    <a href="/html/">HTML</a> |                   FOOTER
+    <a href="/css/">CSS</a> |
+    <a href="/js/">JavaScript</a> |
+    <a href="/jquery/">jQuery</a>
+  </nav>------>
+  <p>My family and I visited The Epcot center this summer.</p>
+
+<aside>
+  <h4>Epcot Center</h4>
+  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+</aside>
+
+<details>              <!--------DETALJI I KAO OPSIRNIJE ZA INFO I OBOJATI ODREDJENU RIJEC-->
+  <summary>Copyright 1999-2014.</summary>
+  <p> - by Refsnes Data. All Rights Reserved.</p>
+  <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+</details>
+
+<p>Do not forget to buy <mark>milk</mark> today.</p>      
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Aisle</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Bread</td>
+            <td>2</td>
+            <td>$3.00</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Milk</td>
+            <td>1</td>				
+            <td>$2.50</td>				
+            <td>2</td>
+        </tr>
+    </tbody>
+    <tfoot>
+    <tr>			
+        <td>Total</td>	
+        <td>N/A</td>
+        <td>$5.50</td>	
+         <td>N/A</td>
+    </tr>
+    </tfoot>
+    </table>
+
+
+
+        </tr>
+  
+  
+<body>                <!-------OVO JE HTML DIO ZA HILITE TEKST POZADINU DA IMA U BOJI-->
+    <p class="hilite"> Ovo je jos jedan od teksta</p>
+</body>
+
+<!------<body>                     DIO HTML ZA UVUCI PARAGRAF U ODNOSU NA OSTATAK TEKSTA
+    <p class="indent">Neki drugi tekst</p>
+</body>------>
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+          
+        </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
